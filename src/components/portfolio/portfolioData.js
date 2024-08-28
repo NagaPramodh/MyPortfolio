@@ -1,13 +1,3 @@
-import college from "../../Assets/images/Capture.PNG";
-import food from "../../Assets/images/Capture2.PNG";
-import password from "../../Assets/images/Capture8.PNG";
-import search from "../../Assets/images/Capture4.PNG";
-import startup from "../../Assets/images/Capture5.PNG";
-import pos from "../../Assets/images/Capture6.PNG";
-import port from "../../Assets/images/Capture7.PNG";
-import emp from "../../Assets/images/emp.png";
-import empS from "../../Assets/images/emp-c.jpg";
-import scard from "../../Assets/images/Capture9.PNG";
 import imdb from "../../Assets/images/imdb_screenshot.png";
 import socio from "../../Assets/images/socio_screenshot.png";
 import myntra from "../../Assets/images/myntra_screenshot.png";
@@ -21,7 +11,7 @@ export const portFolioData = [
     projectName: "IMDB",
     desc: "This is clone of IMDB application , listing various movies, movie detail, rating , cast and more details...",
     projectLink: "https://pramodh-imdb-clone.netlify.app/",
-    sourceCode: "https://github.com/Varsha-Chaubey/IICS-College",
+    sourceCode: "https://github.com/NagaPramodh/IMDBClone",
   },
   {
     id: 2,
@@ -32,15 +22,15 @@ export const portFolioData = [
     sourceCode: "https://github.com/NagaPramodh/Socio",
     status: "done",
   },
-  {
-    id: 3,
-    img: myntra,
-    projectName: "Myntra",
-    desc: "This App is clone of Myntra, Where Myntra being India's largest e-commerce store for fashion and lifestyle products",
-    projectLink: "https://nagapramodh-myntra-clone.netlify.app/",
-    sourceCode: "https://github.com/NagaPramodh/MyntraClone",
-    status: "",
-  },
+  // {
+  //   id: 3,
+  //   img: myntra,
+  //   projectName: "Myntra",
+  //   desc: "This App is clone of Myntra, Where Myntra being India's largest e-commerce store for fashion and lifestyle products",
+  //   projectLink: "https://nagapramodh-myntra-clone.netlify.app/",
+  //   sourceCode: "https://github.com/NagaPramodh/MyntraClone",
+  //   status: "",
+  // },
   {
     id: 4,
     img: passer,
