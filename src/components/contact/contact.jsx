@@ -20,7 +20,7 @@ const Contact = () => {
       <div id="clients">
         <h1 className="contactPageTitle">Work Portfolio</h1>
         <p className="clientDesc">
-          Over the past 20 months, I've had the privilege of contributing as a
+          Over the past 2 years, I've had the privilege of contributing as a
           dedicated software developer for two esteemed companies, actively
           engaged in server-side projects. <br />
           Through collaborative efforts, I've successfully delivered impactful
