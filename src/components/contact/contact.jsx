@@ -28,15 +28,22 @@ const Contact = () => {
           software tailored to the unique needs of each client.
         </p>
         <div className="clientsImgs">
-          <div className="clientDetails">
-            <img src={Inapayments} alt="" className="clientImg" />
-            <p className="details">Inapayemnts, Hyderabad, Telangana</p>
-          </div>
-
-          <div className="clientDetails">
-            <img src={Bik} alt="" className="clientImg" />
-            <p className="details">Bik.ai, Banglore, Karnataka</p>
-          </div>
+          <a
+            href="https://inapayments.com/"
+            target="_blank"
+            className="projectLink"
+          >
+            <div className="clientDetails">
+              <img src={Inapayments} alt="" className="clientImg" />
+              <p className="details">Inapayemnts, Hyderabad, Telangana</p>
+            </div>
+          </a>
+          <a href="https://bik.ai/" target="_blank" className="projectLink">
+            <div className="clientDetails">
+              <img src={Bik} alt="" className="clientImg" />
+              <p className="details">Bik.ai, Banglore, Karnataka</p>
+            </div>
+          </a>
         </div>
       </div>
 

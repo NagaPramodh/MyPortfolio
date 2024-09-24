@@ -61,20 +61,20 @@ const MyWork = () => {
               )
             );
           })}
-        {portFolioData.length > 6 && (
-          <>
-            {visibleProjects < portFolioData.length ? (
-              <button className="workBtn" onClick={handleSeeMore}>
-                See More
-              </button>
-            ) : (
-              <button className="workBtn" onClick={handleSeeLess}>
-                See Less
-              </button>
-            )}
-          </>
-        )}
       </div>
+      {portFolioData.length > 6 && (
+        <>
+          {visibleProjects < portFolioData.length ? (
+            <button className="workBtn" onClick={handleSeeMore}>
+              See More
+            </button>
+          ) : (
+            <button className="workBtn" onClick={handleSeeLess}>
+              See Less
+            </button>
+          )}
+        </>
+      )}
     </section>
   );
 };

@@ -4,6 +4,9 @@ import myntra from "../../Assets/images/myntra_screenshot.png";
 import passer from "../../Assets/images/passer_screenshot.png";
 import bik from "../../Assets/images/bik_screenshot.png";
 import expenses from "../../Assets/images/expenses_screenshot.png";
+import foodApp from "../../Assets/images/foodApp.png";
+import mantra from "../../Assets/images/mantra_screenshot.png";
+import Tryp from "../../Assets/images/Tryp.png";
 export const portFolioData = [
   {
     id: 1,
@@ -58,7 +61,34 @@ export const portFolioData = [
     sourceCode: "https://github.com/NagaPramodh/Expenses-Tracker",
     status: "",
   },
+  {
+    id: 7,
+    img: foodApp,
+    projectName: "Rayalaseema Ruchulu",
+    desc: "This is a Restaurent Website where user can view items add items into cart and order them ",
+    projectLink: "https://nagapramodhfoodapp.netlify.app/",
+    // sourceCode: "https://github.com/NagaPramodh/Expenses-Tracker",
+    status: "",
+  },
 
+  {
+    id: 8,
+    img: mantra,
+    projectName: "Mantra Website",
+    desc: "This is a Static Website for Mantra Chatbot where people can view and get more details on how chatbot works ",
+    projectLink: "https://mantra-task-pramodh-2.netlify.app/",
+    // sourceCode: "https://github.com/NagaPramodh/Expenses-Tracker",
+    status: "",
+  },
+  {
+    id: 9,
+    img: Tryp,
+    projectName: "Tryp DataList",
+    desc: "It is a website containing data of various people who purchased item , this also includes pagination and entries per page as additional feature ",
+    projectLink: "https://pramodh-tryp.netlify.app/",
+    // sourceCode: "https://github.com/NagaPramodh/Expenses-Tracker",
+    status: "",
+  },
   //   {
   //     id: 7,
   //     img: scard,
