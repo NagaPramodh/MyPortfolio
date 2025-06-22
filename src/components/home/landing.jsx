@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import bg from "../../Assets/images/bg.jpg";
 import btnImg from "../../Assets/images/btnImg.png";
 import { Link } from "react-scroll";
+import landingpic from "../../Assets//images/landing_pic.jpg";
 const Landing = () => {
   const [roles, setRoles] = useState([]);
   const [currentRole, setCurrentRole] = useState(0);
@@ -22,7 +22,7 @@ const Landing = () => {
   return (
     <>
       <section id="landing">
-        <img src={bg} alt="" className="bg" />
+        <img src={landingpic} alt="" className="bg" />
         <div className="landingContent">
           <span className="hello">Hello,</span>
           <span className="introText">
