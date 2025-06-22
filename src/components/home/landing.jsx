@@ -31,8 +31,7 @@ const Landing = () => {
             <span className="developerRole">{roles[currentRole]}</span>
           </span>
           <p className="introPara">
-            I'm a dedicated Frontend Developer with 2.5 years of
-            experience.
+            I'm a dedicated Frontend Developer with 2.7 years of experience.
             <br /> Having Strong Interactive,Conceptual and Problem Solving
             Skills.
           </p>

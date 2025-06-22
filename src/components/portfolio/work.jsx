@@ -31,7 +31,14 @@ const MyWork = () => {
                   <div className="workItemDesc">
                     <p className="projectName">{item.projectName}</p>
                     <p className="projectDesc">{item.desc}</p>
-                    <div style={{ display: "flex", flexDirection: "column" }}>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        gap: "10px",
+                        marginTop: "20px",
+                      }}
+                    >
                       {item?.projectLink && (
                         <a
                           href={item.projectLink}
@@ -39,7 +46,7 @@ const MyWork = () => {
                           className="projectLink"
                           onClick={() => console.log(item.projectLink)}
                         >
-                          Click here for demo
+                          Demo
                         </a>
                       )}
                       {item?.sourceCode && (
@@ -48,7 +55,7 @@ const MyWork = () => {
                           className="projectLink"
                           target="_blank"
                         >
-                          Click here for source code
+                          Souce Code
                         </a>
                       )}
                     </div>

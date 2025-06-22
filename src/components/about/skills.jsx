@@ -7,18 +7,17 @@ const Skills = () => {
     "React Native",
     "React JS",
     "Redux",
-    "Hooks Management",
-    "Context APIs",
-    "Web Developement",
     "Javascript",
-    "Authentication",
-    "ES6",
     "HTML5",
     "CSS3",
     "Type Script",
     "Bootstrap",
     "React Material UI",
     "APIs Integration",
+    "Problem Solving Skills",
+    "Firebase",
+    "Key Cloak",
+    "Python",
   ];
 
   const toolData = [
@@ -39,11 +38,12 @@ const Skills = () => {
     <section id="skills">
       <span className="skillTitle">What do I do</span>
       <span className="skillDesc">
-        Driven and determined Software Engineer promoting one and half year of
-        experience in building client applications. Enthusiastic Front-End
-        Engineer eager to contribute to team success through hard work,
-        attention to detail and excellent organizational skills. Offers strong
-        interpersonal and communication skills
+        Experienced software engineer specializing in developing responsive,
+        user-focused client applications. Dedicated front-end engineer with a
+        passion for delivering high-quality code and seamless user experiences.
+        Known for strong problem-solving skills, effective communication, and a
+        collaborative mindset that fosters team success and continuous
+        improvement.
       </span>
 
       <div className="skillBars">

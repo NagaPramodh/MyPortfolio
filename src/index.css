@@ -387,7 +387,7 @@ body {
   cursor: pointer;
   border: 1px solid var(--btnColor);
   width: 22rem;
-  height: 18rem;
+  height: 20rem;
   margin: 0.4rem;
   border-radius: 0.4rem;
   background: var(--mainText);
@@ -428,12 +428,35 @@ body {
   overflow: hidden;
   letter-spacing: 1px;
 }
-.projectLink {
+.companyLink {
   font-size: 0.9rem;
   color: var(--linkColor);
   font-weight: 300;
   z-index: 9;
 }
+.projectLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 20px;
+  background-color: #4f46e5; /* Indigo */
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projectLink:hover {
+  background-color: #3730a3; /* Darker indigo */
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.projectLink:active {
+  transform: scale(0.97);
+}
+
 .projectStatus {
   font-size: 0.8rem;
   color: #9eb5ca;
@@ -487,6 +510,7 @@ body {
 .clientsImgs {
   margin: 1rem 0;
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -506,6 +530,7 @@ body {
 .details {
   width: 100%;
   padding: 1rem;
+  color: white;
   background: var(--mainColor);
   border-radius: 0.4rem;
 }

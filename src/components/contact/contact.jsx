@@ -20,7 +20,7 @@ const Contact = () => {
       <div id="clients">
         <h1 className="contactPageTitle">Work Portfolio</h1>
         <p className="clientDesc">
-          Over the past 2 years, I've had the privilege of contributing as a
+          Over the past 2.7 years, I've had the privilege of contributing as a
           dedicated software developer for two esteemed companies, actively
           engaged in server-side projects. <br />
           Through collaborative efforts, I've successfully delivered impactful
@@ -31,14 +31,14 @@ const Contact = () => {
           <a
             href="https://inapayments.com/"
             target="_blank"
-            className="projectLink"
+            className="companyLink"
           >
             <div className="clientDetails">
               <img src={Inapayments} alt="" className="clientImg" />
               <p className="details">Inapayemnts, Hyderabad, Telangana</p>
             </div>
           </a>
-          <a href="https://bik.ai/" target="_blank" className="projectLink">
+          <a href="https://bik.ai/" target="_blank" className="companyLink">
             <div className="clientDetails">
               <img src={Bik} alt="" className="clientImg" />
               <p className="details">Bik.ai, Banglore, Karnataka</p>
@@ -132,10 +132,7 @@ const Contact = () => {
             {" "}
             <img src={linkedin} alt="" className="link" />
           </a>
-          <a
-            href="https://www.instagram.com/tenacious_person28/"
-            target="_blank"
-          >
+          <a href="https://www.instagram.com/pious_boy28/" target="_blank">
             <img src={insta} alt="" className="link" />
           </a>
         </div>
